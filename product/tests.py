@@ -27,3 +27,5 @@ class SignupTest(TestCase):
         self.assertEqual(response.json(), {
             "message" : "SUCCESS"
         })
+    
+# 출처: https://velog.io/@hj8853/Django-Unit-Test
